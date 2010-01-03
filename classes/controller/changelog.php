@@ -33,6 +33,7 @@
          public function before()
          {
              parent::before();
+             require Kohana::find_file('vendor', 'glip/lib/glip');
              $this->repo = new Git(APPPATH . '../.git/');
          }
          

@@ -1,3 +1,6 @@
 [submodule "vendor/htmlpurifier"]
 	path = vendor/htmlpurifier
 	url = git://repo.or.cz/htmlpurifier.git
+[submodule "vendor/glip"]
+	path = vendor/glip
+	url = git://github.com/patrikf/glip.git
